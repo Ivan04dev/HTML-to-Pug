@@ -1,0 +1,32 @@
+nav#layout-navbar.layout-navbar.navbar.navbar-expand-lg.align-items-lg-center.bg-white.container-p-x
+  // Brand demo (see assets/css/demo/demo.css)
+  a.navbar-brand.app-brand.demo.d-lg-none.py-0.mr-4(href='index.html')
+    span.app-brand-logo.demo
+      img.img-fluid(src='assets/img/logo-dark.png' alt='Brand Logo')
+    span.app-brand-text.demo.font-weight-normal.ml-2 cx tiendas
+  // Sidenav toggle (see assets/css/demo/demo.css)
+  .layout-sidenav-toggle.navbar-nav.d-lg-none.align-items-lg-center.mr-auto
+    a.nav-item.nav-link.px-0.mr-lg-4(href='javascript:')
+      i.ion.ion-md-menu.text-large.align-middle
+  button.navbar-toggler(type='button' data-toggle='collapse' data-target='#layout-navbar-collapse')
+    span.navbar-toggler-icon
+  #layout-navbar-collapse.navbar-collapse.collapse
+    // Divider
+    hr.d-lg-none.w-100.my-2
+    .navbar-nav.align-items-lg-center.ml-auto
+      .demo-navbar-notifications.nav-item.dropdown.mr-lg-3
+        a.nav-link.dropdown-toggle.hide-arrow(href='#' data-toggle='dropdown')
+          i.feather.icon-link.navbar-icon.align-middle
+      .demo-navbar-messages.nav-item.dropdown.mr-lg-3
+        a.nav-link.dropdown-toggle.hide-arrow(href='#')
+          | Tiendas izzi
+      // Divider
+      .nav-item.d-none.d-lg-block.text-big.font-weight-light.line-height-1.opacity-25.mr-3.ml-1 |
+      .demo-navbar-user.nav-item.dropdown
+        a.nav-link.dropdown-toggle(href='#' data-toggle='dropdown')
+          span.d-inline-flex.flex-lg-row-reverse.align-items-center.align-middle
+            span.px-1.mr-lg-2.ml-2.ml-lg-0 asaucedo
+        .dropdown-menu.dropdown-menu-right
+          a.dropdown-item(href='javascript:')
+            i.feather.icon-power.text-danger
+            |  &nbsp; Log Out
