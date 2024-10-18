@@ -1,0 +1,263 @@
+// [ Layout content ] Start
+.layout-content
+  // [ content ] Start
+  .container-fluid.flex-grow-1.container-p-y
+    h4.font-weight-bold.py-3.mb-0 CX Tiendas
+    .text-muted.small.mt-0.mb-4.d-block.breadcrumb
+      ol.breadcrumb
+        li.breadcrumb-item
+          a(href='#')
+            i.feather.icon-home
+        li.breadcrumb-item
+          a(href='#') Library
+        li.breadcrumb-item.active Data
+    .row
+      // 1st row Start
+      .col-lg-7
+        .card.mb-4
+          .card-header.with-elements
+            h6.card-header-title.mb-0 Usuarios
+            .card-header-elements.ml-auto
+          .card-body
+            #statistics-chart-1(style='height:270px')
+      .col-lg-5
+        .row
+          .col-md-6
+            .card.mb-4.bg-pattern-2-dark
+              .card-body
+                .d-flex.align-items-center
+                  .lnr.lnr-gift.display-4.text-primary
+                  .ml-3
+                    .text-muted.small Products
+                    .text-large 985
+                #ecom-chart-3.mt-3.chart-shadow-primary(style='height:40px')
+          .col-md-6
+            .card.mb-4.bg-pattern-2.bg-primary.text-white
+              .card-body
+                .d-flex.align-items-center
+                  .lnr.lnr-cart.display-4
+                  .ml-3
+                    .small Monthly sales
+                    .text-large 2362
+                #order-chart-1.mt-3.chart-shadow(style='height:40px')
+          .col-sm-12
+            .card.d-flex.w-100.mb-4
+              .row.no-gutters.row-bordered.row-border-light.h-100
+                .d-flex.col-sm-6.col-md-4.col-lg-6.align-items-center
+                  .card-body.media.align-items-center.text-dark
+                    i.lnr.lnr-diamond.display-4.d-block.text-primary
+                    span.media-body.d-block.ml-3
+                      span.text-big.mr-1.text-primary $1584.78
+                      br
+                      small.text-muted Earned this month
+                .d-flex.col-sm-6.col-md-4.col-lg-6.align-items-center
+                  .card-body.media.align-items-center.text-dark
+                    i.lnr.lnr-clock.display-4.d-block.text-primary
+                    span.media-body.d-block.ml-3
+                      span.text-big
+                        span.mr-1.text-primary 152
+                        | Working Hours
+                      br
+                      small.text-muted Spent this month
+                .d-flex.col-sm-6.col-md-4.col-lg-6.align-items-center
+                  .card-body.media.align-items-center.text-dark
+                    i.lnr.lnr-hourglass.display-4.d-block.text-primary
+                    span.media-body.d-block.ml-3
+                      span.text-big
+                        span.mr-1.text-primary 54
+                        |  Tasks
+                      br
+                      small.text-muted Completed this month
+                .d-flex.col-sm-6.col-md-4.col-lg-6.align-items-center
+                  .card-body.media.align-items-center.text-dark
+                    i.lnr.lnr-license.display-4.d-block.text-primary
+                    span.media-body.d-block.ml-3
+                      span.text-big
+                        span.mr-1.text-primary 6
+                        |  Projects
+                      br
+                      small.text-muted Done this month
+      // 1st row Start
+    .row
+      // 2nd row Start
+      .col-md-7
+        .card.d-flex.w-100.mb-4
+          .row.no-gutters.row-bordered.row-border-light.h-100
+            .d-flex.col-md-6.col-lg-3.align-items-center
+              .card-body
+                .row.align-items-center.mb-3
+                  .col-auto
+                    i.lnr.lnr-earth.text-primary.display-4
+                  .col
+                    h6.mb-0.text-muted
+                      | Total 
+                      span.text-primary Subscription
+                    h4.mt-3.mb-0
+                      | 7652
+                      i.ion.ion-md-arrow-round-down.ml-3.text-danger
+                p.mb-0.text-muted 48% From Last 24 Hours
+            .d-flex.col-md-6.col-lg-3.align-items-center
+              .card-body
+                .row.align-items-center.mb-3
+                  .col-auto
+                    i.lnr.lnr-cart.text-primary.display-4
+                  .col
+                    h6.mb-0.text-muted
+                      span.text-primary Order
+                      |  Status
+                    h4.mt-3.mb-0
+                      | 6325
+                      i.ion.ion-md-arrow-round-up.ml-3.text-success
+                p.mb-0.text-muted 36% From Last 6 Months
+            .d-flex.col-md-6.col-lg-3.align-items-center
+              .card-body
+                .row.align-items-center.mb-3
+                  .col-auto
+                    i.lnr.lnr-users.text-primary.display-4
+                  .col
+                    h6.mb-0.text-muted
+                      | Unique 
+                      span.text-primary Visitors
+                    h4.mt-3.mb-0
+                      | 652
+                      i.ion.ion-md-arrow-round-down.ml-3.text-danger
+                p.mb-0.text-muted 36% From Last 6 Months
+            .d-flex.col-md-6.col-lg-3.align-items-center
+              .card-body
+                .row.align-items-center.mb-3
+                  .col-auto
+                    i.lnr.lnr-magic-wand.text-primary.display-4
+                  .col
+                    h6.mb-0.text-muted
+                      | Monthly 
+                      span.text-primary Earnings
+                    h4.mt-3.mb-0
+                      | 5963
+                      i.ion.ion-md-arrow-round-up.ml-3.text-success
+                p.mb-0.text-muted 36% From Last 6 Months
+        // Staustic card 3 Start
+      // 2nd row Start
+    .row
+      // 3rd row Start
+      .col-xl-5
+        .card.mb-4
+          .card-header.with-elements
+            h6.card-header-title.mb-0 Tasks
+            .card-header-elements.ml-auto
+              button.btn.btn-default.btn-xs.md-btn-flat(type='button') Show more
+          #tasks-inner(style='height: 310px')
+            .card-body
+              p.text-muted.small Today
+              .custom-controls-stacked
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox')
+                  span.custom-control-label Buy products
+                  span.ui-todo-badge.badge.badge-outline-default.font-weight-normal.ml-2 58 mins left
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox')
+                  span.custom-control-label Reply to emails
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox')
+                  span.custom-control-label Write blog post
+                  span.ui-todo-badge.badge.badge-outline-default.font-weight-normal.ml-2 20 hours left
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox' checked='')
+                  span.custom-control-label Wash my car
+            hr.m-0
+            .card-body
+              p.text-muted.small Tomorrow
+              .custom-controls-stacked
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox')
+                  span.custom-control-label Buy antivirus
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox')
+                  span.custom-control-label Jane&apos;s Happy Birthday
+                label.ui-todo-item.custom-control.custom-checkbox
+                  input.custom-control-input(type='checkbox')
+                  span.custom-control-label Call mom
+          .card-footer
+            .input-group
+              input.form-control(type='text' placeholder='Type your task')
+              .input-group-append
+                button.btn.btn-primary(type='button') Add
+      .col-xl-7
+        .card.mb-4
+          .card-header.with-elements.pb-0
+            h6.card-header-title.mb-0 Customer details
+            .card-header-elements.ml-auto.p-0
+              ul.nav.nav-tabs
+                li.nav-item
+                  a.nav-link.active(data-toggle='tab' href='#sale-stats') Sale stats
+                li.nav-item
+                  a.nav-link(data-toggle='tab' href='#latest-sales') Latest sales
+          .nav-tabs-top
+            .tab-content
+              #sale-stats.tab-pane.fade.show.active
+                #tab-table-1(style='height: 330px')
+                a.card-footer.d-block.text-center.text-dark.small.font-weight-semibold(href='javascript:') SHOW MORE
+              #latest-sales.tab-pane.fade
+                #tab-table-2(style='height: 330px')
+                  table.table.table-hover.card-table
+                    thead
+                      tr
+                        th Product
+                        th Qty.
+                        th Sum.
+                    tbody
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') PlayStation 4 1TB (Jet Black)
+                        td.align-middle 1
+                        td.align-middle $480.00
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') Nike Men Black Liteforce III Sneakers
+                        td.align-middle 2
+                        td.align-middle $115.1
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') Wireless headphones
+                        td.align-middle 1
+                        td.align-middle $235.55
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') HERO ATHLETES BAG
+                        td.align-middle 1
+                        td.align-middle $160.00
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') PO&Auml;NG
+                        td.align-middle 3
+                        td.align-middle $477.00
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') Apple iWatch (black)
+                        td.align-middle 1
+                        td.align-middle $399.00
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') WALKING 400 BLUE CAT3
+                        td.align-middle 2
+                        td.align-middle $41.1
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') Wireless headphones
+                        td.align-middle 1
+                        td.align-middle $235.55
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') HERO ATHLETES BAG
+                        td.align-middle 1
+                        td.align-middle $160.00
+                      tr
+                        td.align-middle
+                          a.text-dark(href='javascript:') PO&Auml;NG
+                        td.align-middle 3
+                        td.align-middle $477.00
+                a.card-footer.d-block.text-center.text-dark.small.font-weight-semibold(href='javascript:') SHOW MORE
+      // 3rd row Start
+  // [ content ] End
+  // [ Layout footer ] Start
+  // [ Layout footer ] End
+// [ Layout content ] Start --</body></html>
