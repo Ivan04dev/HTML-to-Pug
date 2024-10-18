@@ -1,0 +1,85 @@
+// [ Layout sidenav ] Start
+#layout-sidenav.layout-sidenav.sidenav.sidenav-vertical.bg-dark
+  // Brand demo (see assets/css/demo/demo.css)
+  .app-brand.demo
+    img(src='assets/img/logo_tiendas.png' alt='cx tiendas')
+    // <span class="app-brand-logo demo"></span>
+    img(src='assets/img/logo_tiendas.png' alt='cx tiendas')
+    a(href='index.html')
+      img(src='assets/img/logo_tiendas.png')
+    a.layout-sidenav-toggle.sidenav-link.text-large.ml-auto(href='javascript:')
+      i.ion.ion-md-menu.align-middle
+  .sidenav-divider.mt-0
+  // Links
+  ul.sidenav-inner.py-1
+    // Dashboards
+    li.sidenav-item.active
+      a.sidenav-link(href='index.html')
+        i.sidenav-icon.feather.icon-home
+        div Home
+    // Layouts
+    li.sidenav-divider.mb-1
+    li.sidenav-header.small.font-weight-semibold Staff
+    // UI elements
+    li.sidenav-item
+      a.sidenav-link.sidenav-toggle(href='javascript:')
+        i.sidenav-icon.feather.icon-user
+        div Usuarios
+      ul.sidenav-menu
+        li.sidenav-item
+          a.sidenav-link(href='bui_alert.html')
+            div Alta
+        li.sidenav-item
+          a.sidenav-link(href='bui_badges.html')
+            div Consulta
+        li.sidenav-item
+          a.sidenav-link(href='bui_button.html')
+            div Descarga
+        li.sidenav-item
+          a.sidenav-link(href='charts_morrisjs.html')
+            div Charts
+    // Forms & Tables
+    li.sidenav-divider.mb-1
+    li.sidenav-header.small.font-weight-semibold Documentos
+    li.sidenav-item
+      a.sidenav-link.sidenav-toggle(href='javascript:')
+        i.sidenav-icon.feather.icon-file-text
+        div Documentos
+      ul.sidenav-menu
+        li.sidenav-item
+          a.sidenav-link(href='documentos_alta.php')
+            div Alta
+        li.sidenav-item
+          a.sidenav-link(href='documentos_consulta.php')
+            div Consulta
+    li.sidenav-item
+      a.sidenav-link.sidenav-toggle(href='javascript:')
+        i.sidenav-icon.feather.icon-image
+        div Carrusel
+      ul.sidenav-menu
+        li.sidenav-item
+          a.sidenav-link(href='forms_layouts.html')
+            div Alta
+        li.sidenav-item
+          a.sidenav-link(href='forms_input-groups.html')
+            div Consulta
+    // Icons
+    li.sidenav-divider.mb-1
+    li.sidenav-header.small.font-weight-semibold Tiendas
+    li.sidenav-item
+      a.sidenav-link.sidenav-toggle(href='javascript:')
+        i.sidenav-icon.feather.icon-home
+        div Tiendas
+      ul.sidenav-menu
+        li.sidenav-item
+          a.sidenav-link(href='tiendas_alta.php')
+            div Alta
+        li.sidenav-item
+          a.sidenav-link(href='icons_linearicons.html')
+            div Consulta
+    // Pages
+    li.sidenav-divider.mb-1
+    li.sidenav-item
+      a.sidenav-link(href='#')
+        i.sidenav-icon.feather.icon-log-out
+        div Log Out
